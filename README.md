@@ -1,8 +1,8 @@
- <font size = +2><center><u>Home Renovation and House Sales in King County</u></center></font>
+# Home Renovation and House Sales in King County
 
 Authors: [Roshni Janakiraman](mailto:roshnij618@gmail.com), [Michael Licul](mailto:liculm315@gmail.com), & [Jose Castillo](mailto:114josecastillo@gmail.com)
 
-![seattle](/images/seattle.png)  
+![seattle](./images/seattle.jpg)
 
 # Overview
 As consultants for a home renovation company, we sought out to determine the types of home renovations that are most associated with increased house sale price. Using data from all house sales during 2021 in King County, we used regression models to determine the following:
@@ -101,10 +101,12 @@ We used continuous measures of area to determine the following binary variables:
 4. Continuous Variables: Removed Outliers based on a combination of the IQR method and z=3 cutoff method.
 
 Below are graphs of our continuous and categorical variables:
-![cont_hist](./images/cont_hist)
-![cat_plots](./images/heat_map.png)  
 
-More descriptive statistics and visualizations can be found in our Jupyter notebook. The heat map below showsthe correlations between continuous variables:
+![cont_hist](./images/cont_hist.png)
+
+![cat_plots](./images/cat_plots.png)  
+
+More descriptive statistics and visualizations can be found in our Jupyter notebook. The heat map below shows the correlations between continuous variables:
 
 ![heat_map](./images/heat_map.png)    
 
@@ -329,9 +331,9 @@ ___
 ---
 # For More Information
 
-See the full analysis in the [Jupyter Notebook](./Home_Renovations_and_Sale_Prices_in_King_County.ipynb) or review this [presentation](./presentation.pdf).
+See the full analysis in the [Jupyter Notebook](./Home_Ren_Sales_King_County.ipynb) or review this [presentation](./presentation.pdf).
 
-**For additional info, contact:**<br>
+**For additional info, contact:**
 * [Roshni Janakiraman](mailto:roshnij618@gmail.com) <br>
 * [Michael Licul](mailto:liculm315@gmail.com) <br>
 * [Jose Castillo](mailto:114josecastillo@gmail.com)
@@ -344,13 +346,17 @@ See the full analysis in the [Jupyter Notebook](./Home_Renovations_and_Sale_Pric
 ├── scratch_notebooks
 │   ├── Mike Notebook.ipynb
 │   ├── rj_scratch.ipynb
+│   └── scratch_cleaned_data.ipynb
 ├── images
-│   ├── cinema.jpeg
-│   ├── director_shot.jpeg
-│   ├── figure1.png
-│   ├── figure2.png
-│   ├── figure3.png
-│   └── jheader.png
+│   ├── cat_plots.png
+│   ├── cont_hist.png
+│   ├── heat_map.png
+│   ├── houses.jpg
+│   ├── q1_2_result.jpg
+│   ├── q3a_result.jpg
+│   ├── q3b_result.jpg
+│   ├── q3c_result.jpg
+│   └── seattle.jpg
 ├── Data
 │   ├── column_names.md
 │   ├── kc_house_data.csv
